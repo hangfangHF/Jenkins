@@ -1,0 +1,13 @@
+com\haven\firstplugin\DynamicParameter\DescriptorImpl\doFillValueItems.stapler
+com\haven\firstplugin\DynamicParameterValue.javadoc
+com\haven\firstplugin\CustomizeParametersDefinitionProperty$DescriptorImpl.class
+com\haven\firstplugin\DynamicParameterValue.class
+META-INF\annotations\org.kohsuke.stapler.export.ExportedBean
+com\haven\firstplugin\DynamicParameter\DescriptorImpl\doFillDynamicValueItems.stapler
+com\haven\firstplugin\DynamicParameter.class
+META-INF\exposed.stapler-beans
+com\haven\firstplugin\DynamicParameterValue.stapler
+com\haven\firstplugin\DynamicParameter.stapler
+com\haven\firstplugin\DynamicParameter$DescriptorImpl.class
+com\haven\firstplugin\CustomizeParametersDefinitionProperty.class
+META-INF\annotations\hudson.Extension

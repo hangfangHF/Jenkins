@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="InjectedTest" time="62.543" tests="18" errors="8" skipped="0" failures="2">
+  <properties>
+    <property name="idea.version" value="2017.2.4"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\Gitcode\Test\jenkins\newplugin"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\Gitcode\Test\jenkins\newplugin"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA 2017.2.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python27;C:\Go\bin;D:\maven\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\Java\jre1.8.0_131\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\SlikSvn\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2017.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2017.2.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_144\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2017.2.4 install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA 2017.2.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase name="com\haven\firstplugin\DynamicParameter\config.jelly" classname="org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck" time="0.303">
+    <failure message="&lt;?jelly escape-by-default=&apos;true&apos;?&gt; is missing in file:/E:/Gitcode/Test/jenkins/newplugin/target/classes/com/haven/firstplugin/DynamicParameter/config.jelly" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: <?jelly escape-by-default='true'?> is missing in file:/E:/Gitcode/Test/jenkins/newplugin/target/classes/com/haven/firstplugin/DynamicParameter/config.jelly
+	at org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck.runTest(JellyTestSuiteBuilder.java:108)
+]]></failure>
+    <system-out><![CDATA[Exploding C:\Users\Administrator\.m2\repository\org\jenkins-ci\main\jenkins-war\1.625.3\jenkins-war-1.625.3-war-for-test.jar into E:\Gitcode\Test\jenkins\newplugin\target\jenkins-for-test
+]]></system-out>
+    <system-err><![CDATA[Sep 22, 2017 10:33:32 AM org.eclipse.jetty.util.log.Log initialized
+INFO: Logging initialized @423ms
+Sep 22, 2017 10:33:54 AM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+WARNING: Empty contextPath
+Sep 22, 2017 10:33:54 AM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.12.v20150709
+Sep 22, 2017 10:33:54 AM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+Sep 22, 2017 10:33:54 AM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@df9280{/,file:/E:/Gitcode/Test/jenkins/newplugin/target/jenkins-for-test/,AVAILABLE}{E:\Gitcode\Test\jenkins\newplugin\target\jenkins-for-test}
+Sep 22, 2017 10:33:54 AM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@755cc1{HTTP/1.1}{localhost:61850}
+Sep 22, 2017 10:33:54 AM org.eclipse.jetty.server.Server doStart
+INFO: Started @22281ms
+Sep 22, 2017 10:33:54 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Sep 22, 2017 10:34:18 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Sep 22, 2017 10:34:18 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Sep 22, 2017 10:34:18 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Sep 22, 2017 10:34:18 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Sep 22, 2017 10:34:20 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Sep 22, 2017 10:34:29 AM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 61876
+Sep 22, 2017 10:34:29 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Sep 22, 2017 10:34:30 AM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.12.v20150709
+Sep 22, 2017 10:34:30 AM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.s.ServletContextHandler@62b621{/,null,AVAILABLE}
+Sep 22, 2017 10:34:30 AM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@1ebb875{HTTP/1.1}{0.0.0.0:61878}
+Sep 22, 2017 10:34:30 AM org.eclipse.jetty.server.Server doStart
+INFO: Started @57842ms
+]]></system-err>
+  </testcase>
+  <testcase name="index.jelly" classname="org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck" time="0.002"/>
+  <testcase name="com\haven\firstplugin\DynamicParameterValue\value.jelly" classname="org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck" time="0.034">
+    <failure message="&lt;?jelly escape-by-default=&apos;true&apos;?&gt; is missing in file:/E:/Gitcode/Test/jenkins/newplugin/target/classes/com/haven/firstplugin/DynamicParameterValue/value.jelly" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: <?jelly escape-by-default='true'?> is missing in file:/E:/Gitcode/Test/jenkins/newplugin/target/classes/com/haven/firstplugin/DynamicParameterValue/value.jelly
+	at org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck.runTest(JellyTestSuiteBuilder.java:108)
+]]></failure>
+  </testcase>
+  <testcase name="com\haven\firstplugin\CustomizeParametersDefinitionProperty\index.jelly" classname="org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck" time="0.076"/>
+  <testcase name="com\haven\firstplugin\DynamicParameter\index.jelly" classname="org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck" time="0.03"/>
+  <testcase name="com\haven\firstplugin\CustomizeParametersDefinitionProperty\config.jelly" classname="org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck" time="0.037"/>
+  <testcase name="testCliSanity" classname="org.jvnet.hudson.test.PluginAutomaticTestBuilder$OtherTests" time="0.013"/>
+  <testcase name="testPluginActive" classname="org.jvnet.hudson.test.PluginAutomaticTestBuilder$OtherTests" time="0"/>
+  <testcase name="org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyTestSuite" classname="org.jvnet.hudson.test.junit.FailedTest" time="0"/>
+  <testcase name="com\haven\firstplugin\CustomizeParametersDefinitionProperty\index.properties" classname="org.jvnet.hudson.test.PropertiesTestSuite$PropertiesTest" time="0.001"/>
+  <testcase name="initializationError" classname="org.junit.runner.manipulation.Filter" time="0">
+    <error message="No tests found matching Method com\haven\firstplugin\DynamicParameter\config.jelly(org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck) from org.junit.internal.requests.ClassRequest@758545" type="java.lang.Exception">java.lang.Exception: No tests found matching Method com\haven\firstplugin\DynamicParameter\config.jelly(org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck) from org.junit.internal.requests.ClassRequest@758545
+</error>
+    <rerunError message="No tests found matching Method com\haven\firstplugin\DynamicParameterValue\value.jelly(org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck) from org.junit.internal.requests.ClassRequest@746d37" type="java.lang.Exception">java.lang.Exception: No tests found matching Method com\haven\firstplugin\DynamicParameterValue\value.jelly(org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck) from org.junit.internal.requests.ClassRequest@746d37
+</rerunError>
+    <rerunError message="No runnable methods" type="java.lang.Exception">java.lang.Exception: No runnable methods
+</rerunError>
+    <rerunError message="No runnable methods" type="java.lang.Exception">java.lang.Exception: No runnable methods
+</rerunError>
+    <rerunError message="No runnable methods" type="java.lang.Exception">java.lang.Exception: No runnable methods
+</rerunError>
+    <rerunError message="No runnable methods" type="java.lang.Exception">java.lang.Exception: No runnable methods
+</rerunError>
+    <rerunError message="No runnable methods" type="java.lang.Exception">java.lang.Exception: No runnable methods
+</rerunError>
+    <rerunError message="No runnable methods" type="java.lang.Exception">java.lang.Exception: No runnable methods
+</rerunError>
+  </testcase>
+</testsuite>

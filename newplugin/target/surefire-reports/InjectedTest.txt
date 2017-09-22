@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: InjectedTest
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 2, Errors: 8, Skipped: 0, Time elapsed: 62.543 sec <<< FAILURE! - in InjectedTest
+com\haven\firstplugin\DynamicParameter\config.jelly(org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck)  Time elapsed: 0.303 sec  <<< FAILURE!
+java.lang.AssertionError: <?jelly escape-by-default='true'?> is missing in file:/E:/Gitcode/Test/jenkins/newplugin/target/classes/com/haven/firstplugin/DynamicParameter/config.jelly
+	at org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck.runTest(JellyTestSuiteBuilder.java:108)
+
+com\haven\firstplugin\DynamicParameterValue\value.jelly(org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck)  Time elapsed: 0.034 sec  <<< FAILURE!
+java.lang.AssertionError: <?jelly escape-by-default='true'?> is missing in file:/E:/Gitcode/Test/jenkins/newplugin/target/classes/com/haven/firstplugin/DynamicParameterValue/value.jelly
+	at org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck.runTest(JellyTestSuiteBuilder.java:108)
+
+initializationError(org.junit.runner.manipulation.Filter)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: No tests found matching Method com\haven\firstplugin\DynamicParameter\config.jelly(org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck) from org.junit.internal.requests.ClassRequest@758545
+
+initializationError(org.junit.runner.manipulation.Filter)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: No tests found matching Method com\haven\firstplugin\DynamicParameterValue\value.jelly(org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck) from org.junit.internal.requests.ClassRequest@746d37
+
+initializationError(org.junit.runner.manipulation.Filter)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: No runnable methods
+
+initializationError(org.junit.runner.manipulation.Filter)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: No runnable methods
+
+initializationError(org.junit.runner.manipulation.Filter)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.Exception: No runnable methods
+
+initializationError(org.junit.runner.manipulation.Filter)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: No runnable methods
+
+initializationError(org.junit.runner.manipulation.Filter)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: No runnable methods
+
+initializationError(org.junit.runner.manipulation.Filter)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: No runnable methods
+

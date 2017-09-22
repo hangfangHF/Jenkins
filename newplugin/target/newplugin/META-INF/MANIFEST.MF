@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Built-By: Administrator
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_121
+Extension-Name: newplugin
+Specification-Title: hangfang test jenkins plugin
+Implementation-Title: newplugin
+Implementation-Version: 1.0-SNAPSHOT
+Group-Id: test
+Short-Name: newplugin
+Long-Name: HangFang Test Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/TODO+Plugin
+Plugin-Version: 1.0-SNAPSHOT (private-09/22/2017 10:53-Administrator)
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Developers: 
+
